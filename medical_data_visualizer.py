@@ -64,8 +64,8 @@ def draw_heat_map():
     # 15
     sns.heatmap(
     	corr,
-    #	square = True,
-    	#center = 0,
+    	square = True,
+    	center = 0,
     	mask = mask,
     	annot= True,
     	fmt =".1f",
